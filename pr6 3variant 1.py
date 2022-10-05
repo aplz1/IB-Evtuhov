@@ -5,6 +5,7 @@
 n = int(input('Введите длину массива - '))
 a = []
 s = 0
+print('Заданная длина массива - ', n)
 for i in range (n):
     print('Введите ',i,'элемент: ')
     a.append(int(input()))
