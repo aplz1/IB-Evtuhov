@@ -3,6 +3,8 @@
 отсортированы по алфавиту.'''
 
 n = input("Впишите строку из слов - ").lower().split(' ')
-for i in range(len(n)):
-    n[i] = ''.join(sorted(n[i]))
-print(' '.join(n))
+def sort(n):
+    for i in range(len(n)):
+        n[i] = ''.join(sorted(n[i]))
+    return(sorted(n))
+print(sort(n))
