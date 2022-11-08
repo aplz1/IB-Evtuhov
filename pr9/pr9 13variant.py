@@ -1,3 +1,4 @@
+#считывание матрицы из файла
 with open('/repriritory/IB-Evtuhov/pr9/test2.txt', 'r', encoding='utf-8-sig') as f:
 	line = f.readlines()
 	matrix = [element.replace("\n", "").split() for element in line]
