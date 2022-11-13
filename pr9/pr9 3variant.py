@@ -48,5 +48,6 @@ for i in range(n):
       print(a[i][j], end = " ")  
    print()  
 with open('/repriritory/IB-Evtuhov/pr9/otvet1.txt', 'w') as file:
+    file.write("Matrix symmetric \n")
     for x in a:
         file.write(' '.join(map(str,x)) + '\n')
