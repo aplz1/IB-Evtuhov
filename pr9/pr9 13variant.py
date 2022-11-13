@@ -33,3 +33,6 @@ for i, row in enumerate(a):
     row[min], row[-1] = row[-1], row[min]
 for row in a:
     print(row)
+with open('/repriritory/IB-Evtuhov/pr9/otvet2.txt', 'w') as file:
+    for x in a:
+        file.write(' '.join(map(str,x)) + '\n')
