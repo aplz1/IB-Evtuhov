@@ -1,3 +1,4 @@
+Matrix symmetric 
 89 13 66
 39 87 13
 27 39 66
