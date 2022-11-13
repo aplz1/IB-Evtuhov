@@ -47,3 +47,6 @@ for i in range(n):
    for j in range(m):  
       print(a[i][j], end = " ")  
    print()  
+with open('/repriritory/IB-Evtuhov/pr9/otvet1.txt', 'w') as file:
+    for x in a:
+        file.write(' '.join(map(str,x)) + '\n')
