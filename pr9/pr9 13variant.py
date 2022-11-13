@@ -34,5 +34,6 @@ for i, row in enumerate(a):
 for row in a:
     print(row)
 with open('/repriritory/IB-Evtuhov/pr9/otvet2.txt', 'w') as file:
+    file.write('12, 23 \n')
     for x in a:
         file.write(' '.join(map(str,x)) + '\n')
