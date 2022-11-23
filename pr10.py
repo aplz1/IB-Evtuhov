@@ -16,7 +16,6 @@ tab_control.add(tab2, text="                                     Вторая   
 tab_control.add(tab3, text="                                     Третья                                     ")
 
 
-
 #первая вкладка "калькулятор"
 def calculator():
     a = txt1.get()
@@ -48,8 +47,6 @@ btn1.grid(column = '4', row = '0')
 
 lbl2 = Label(tab1, text = '')
 lbl2.grid(column = '5', row = '0')
-
-
 
 
 #вторая вкладка "выпадающий список"
