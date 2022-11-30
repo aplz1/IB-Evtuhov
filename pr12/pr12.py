@@ -4,9 +4,9 @@
 def rever_num(n): 
 	global rever_n   
 	if (n > 0): 
-		a = n % 10                       # находим остаток - последнюю цифру
-		rever_n = (rever_n * 10) + a     # увеличиваем разрядность числа
-		rever_num(n // 10)               # делим нацело - удаляем последнюю цифру
+		a = n % 10 
+		rever_n = (rever_n * 10) + a 
+		reverse(n // 10) 
 	return rever_n 
 
 rever_n = 0   
