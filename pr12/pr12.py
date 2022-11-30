@@ -7,8 +7,8 @@ rever_n = 0
 def reverse(n): 
 	global rever_n   
 	if (n > 0): 
-		Reminder = n % 10 
-		rever_n = (rever_n * 10) + Reminder 
+		a = n % 10 
+		rever_n = (rever_n * 10) + a 
 		reverse(n // 10) 
 	return rever_n 
 
